@@ -99,7 +99,7 @@ RUN chmod +x /entrypoint.sh
 
 # Expose default ports
 # 8080 - Web interface (as configured in config.yaml)
-EXPOSE 8080/tcp
+EXPOSE 8090/tcp
 
 # Environment variables
 ENV TZ=UTC

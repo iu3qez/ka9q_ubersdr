@@ -63,7 +63,7 @@ services:
 
     # Expose web interface ports
     ports:
-      - 8080:8080   # Main UberSDR web interface
+      - 8090:8080   # Main UberSDR web interface
       - 8073:8073   # KiwiSDR protocol compatibility (if enabled in config)
 
     # Environment variables
@@ -157,7 +157,7 @@ networks:
     driver: bridge
     ipam:
       config:
-        - subnet: 172.20.0.0/16
+        - subnet: 172.30.0.0/16
 
 volumes:
   radiod-config:
